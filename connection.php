@@ -11,4 +11,4 @@ if (!$conn) {
 }
 echo "Connected Successfully";
 
-// Test changes to the Connection String
+// Test changes to the Connection
