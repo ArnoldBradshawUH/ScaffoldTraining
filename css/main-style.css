@@ -1,0 +1,79 @@
+/*----Default Site settings----*/
+
+html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,img,nav ul,nav li,form,label,table,tr,th,td,footer,header,nav
+{margin:0;padding:0;border:0;font-size:100%;font:inherit;}
+
+h1,h2,h3,h4,h5,h6{font-weight:600;}
+p{color: #6b6b6b; line-height:1.8em;}
+label{font-weight:600;font-color:#2C3E50;}
+a{text-decoration:none}
+.clear{clear:both;}/* clear float */
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color:#628399;
+}
+
+.confirm-message{
+	font-weight: 600;
+	color: #32A2E3;
+	font-size: 16px;
+}
+
+.avail{
+	font-weight: 600;
+	color: #32A2E3;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+/*---- HEADERS FOR USER-DASHBOARD AND ADMIN DASHBOARD ----*/
+.header{background:#2C3E50;width:100%;position:fixed;top:0;z-index:999}
+.wrapper{width:80%;margin:0 auto;}
+.header-left{float:left;font-size: 0.9em;}
+
+.header-left ul li{display:inline-block;padding: 0.4em 1em 0.3em;float:left;}
+.header-left ul li span{
+	width:28px;
+	height:28px;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.header-left ul li  p{
+	display:inline-block;
+	color:#F0F0F0;
+	font-size:16px;
+	font-weight:600;
+}
+
+.header-left ul li  p span{
+	background:url(../images/avatar.png) no-repeat 0px 0px;
+}
+
+.header-right{float:right;font-size: 0.9em;}
+
+.header-right ul li{
+	display:inline-block;
+	padding: 0.4em 1em 0.3em;
+	float:left;
+}
+
+.header-right ul li a{
+	display: inline-block;
+	color:#92d9f8;
+	font-weight:600;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;	
+}
+
+.header-right ul li a:hover{color:#F0F0F0;}
+
+.header-right ul li span{
+	width:28px;
+	height:28px;
+	display:inline-block;
+	vertical-align:middle;
+}
