@@ -1,5 +1,6 @@
 
 <?php 
+	
 	// Includes the standard header file
 	include 'includes/header.php';
 
@@ -52,8 +53,13 @@
 	mysqli_close($con);
 	}
 
-?>	
+?>
 
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/main-style.css"/>	
+	</head>
 <div class="login-form-wrapper">
 			<div class="form-size">
 				<div class="form-border">
@@ -61,9 +67,8 @@
 						<div class="form-center">
 						
 							 <div class="img-center">
-								<img src="images/logo.png" alt="Dream Travel"/>
+								<img src="images/logo.png" alt=""/>
 							  </div>
-							
 							
 							<img src="images/login.png" alt=""/>
 
@@ -110,14 +115,13 @@
 								<div class="clear"></div>
 				
 							</form>
-					 		
-					
 					
 					</div>
 				</div>
 			</div>
 		</div>
 
+</html>
 
  <script>
   $(function() {
@@ -145,4 +149,3 @@
   });
   
   </script>
-	

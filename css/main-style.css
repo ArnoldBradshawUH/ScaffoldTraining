@@ -77,3 +77,14 @@ body{
 	display:inline-block;
 	vertical-align:middle;
 }
+
+/* Style for Pages ...*/
+
+.login-form-wrapper{
+	margin-top:13%;
+	width: 60%;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.5);
+	
+	border-radius: 5px;
+}
