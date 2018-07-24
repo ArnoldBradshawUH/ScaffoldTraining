@@ -1,4 +1,4 @@
-/*----Default Site settings----*/
+/*----Default settings----*/
 
 html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,img,nav ul,nav li,form,label,table,tr,th,td,footer,header,nav
 {margin:0;padding:0;border:0;font-size:100%;font:inherit;}
@@ -27,7 +27,7 @@ body{
 	text-decoration: underline;
 }
 
-/*---- HEADERS FOR USER-DASHBOARD AND ADMIN DASHBOARD ----*/
+/*---- Headers for Dashboards ----*/
 .header{background:#2C3E50;width:100%;position:fixed;top:0;z-index:999}
 .wrapper{width:80%;margin:0 auto;}
 .header-left{float:left;font-size: 0.9em;}
