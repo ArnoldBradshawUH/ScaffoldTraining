@@ -1,16 +1,13 @@
 <?php
 
 ?>
-
 <!DOCTYPE html>
+
 <html>
+	<head>
+	</head>
+	<body>
 
-<head>
-
-</head>
-
-<body>
-
-</body>
-
+		<h1> Homepage </h1>
+	</body>
 </html>
