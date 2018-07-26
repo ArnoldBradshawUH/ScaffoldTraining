@@ -32,3 +32,13 @@
     </ul>
   </div>
 </nav>
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="stylesheet" type="text/css" href="../css/main-style.css">
+
+  </head>
+  <body>
+    <div class="wrapper">
