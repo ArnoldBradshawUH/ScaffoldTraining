@@ -6,11 +6,11 @@
 
 		<link rel="stylesheet" type="text/css" href="../css/main-style.css">
 
-		<title> Registration </title>
+		<title> Login </title>
 	</head>
 	<body>
 		<div class="wrapper">
-			<h1> Registration </h1>
+			<h1> Login </h1>
 		</div>
 
 
