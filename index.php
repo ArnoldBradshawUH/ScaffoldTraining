@@ -1,6 +1,11 @@
-<?php include "includes/header.php";?>
+<?php include "includes/header.php";
 
+if (isset($_SESSION["UserID"])) {
 
+	echo "Welcome " . $_SESSION["FirstName"] . " " . $_SESSION["LastName"];
+}
+
+?>
 
 <!DOCTYPE html>
 

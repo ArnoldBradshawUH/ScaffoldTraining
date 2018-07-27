@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 	require "../scripts/db-connect.php";
 
-	$sql = "INSERT INTO `User` (`UserID`, `FirstName`, `LastName`, `StreetAddress`, `City`, `PhoneH`, `PhoneM`, `PhoneW`, `Sex`, `UserType`, `Email`, `Picture`, `Pass`, `ScreenName`) VALUES (NULL, '$first_name', '$last_name', '$streetAddress', '$city', '$phone_home', '$phone_mobile', '$phone_work', '', '', '$email', '', sha1('$pass'), '$screenName');";
+	$sql = "INSERT INTO `Student` (`UserID`, `FirstName`, `LastName`, `StreetAddress`, `City`, `PhoneH`, `PhoneM`, `PhoneW`, `Sex`, `UserType`, `Email`, `Picture`, `Pass`, `ScreenName`) VALUES (NULL, '$first_name', '$last_name', '$streetAddress', '$city', '$phone_home', '$phone_mobile', '$phone_work', '', '', '$email', '', sha1('$pass'), '$screenName');";
 
 	if (mysqli_query($conn, $sql)) {
 		echo "New record created successfully";
@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 		<input type="text" name="email"><br>
 
 		Password <br>
-		<input type="text" name="pass"><br>
+		<input type="password" name="pass"><br>
 
 		Username <br>
 		<input type="text" name="screenName"><br>
