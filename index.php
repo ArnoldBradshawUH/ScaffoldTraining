@@ -5,7 +5,7 @@
  * Date: 2018-12-20
  * Time: 03:31
  */
-
+include('header.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -71,7 +71,7 @@
 </body>
 <footer>
     <?php
-
+    include('footer.php');
     ?>
 </footer>
 </html>
