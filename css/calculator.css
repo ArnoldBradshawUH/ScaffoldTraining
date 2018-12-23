@@ -1,0 +1,79 @@
+.head-calculations {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.calculator-page table {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-align: justify;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th {
+    text-align: justify;
+    border: 1px solid black;
+    background-color: #e9d30a;
+    padding: 2px 5px;
+}
+
+.calculator-page td {
+    text-align: justify;
+    line-height: 1.2;
+    border: 1px solid black;
+    padding: 1px 3px;
+}
+
+/*Formatting of the Submit Button*/
+body input[type=submit] {
+    width: 150px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14pt;
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    cursor: pointer;
+}
+
+/*Formatting of the Hover Effect*/
+.calculator-page button[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/*Formatting of the Background colour when focused on a field*/
+button[type=submit]:focus {
+    background-color: lightblue;
+}
+
+/*Formatting of the Submit Button*/
+input[type=text] {
+    width: 100px;
+    padding: 5px;
+    margin: 5px 5px;
+    box-sizing: border-box;
+    background-color: skyblue;
+    color: black;
+    font-size: 15px;
+}
+
+::placeholder {
+    color: black;
+}
+
+/*Formatting of the Hover Effect*/
+input[type=text]:hover {
+    background-color: lightcoral;
+    color: black;
+}
+
+/*Formatting of the Background colour when focused on a field*/
+input[type=text]:focus {
+    background-color: lightblue;
+    color: black;
+}
