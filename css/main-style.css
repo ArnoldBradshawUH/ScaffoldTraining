@@ -1,0 +1,177 @@
+/***** Body Styles CSS *****/
+body .main-page {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #000;
+    max-width: 1000px;
+    min-height: 700px;
+}
+
+.main-page ol{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 12pt;
+    line-height: 1.8;
+    text-decoration: none;
+}
+
+/***** H1 Styles CSS *****/
+h1 h2 h5 {
+    color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 2% auto;
+}
+
+/***** H2 Styles CSS *****/
+h2 {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+/***** H5 Styles CSS *****/
+h5 {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+/***** Typical Paragraphs Styles CSS *****/
+.main-page .content-wrap p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/***** CSS for Bullet items *****/
+.main-page .content-wrap li {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/*Training container for confirmation page*/
+.main-page .training-container {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Form Details CSS*/
+.registration-form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    background-color: white;
+}
+
+/*Formatting of the Text Field*/
+input[type=text], select {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/*Formatting of the Telephone Field*/
+input[type=tel], select {
+    width: 150px;
+    padding: 10px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/*Formatting of the password field*/
+input[type=password], select {
+    width: 150px;
+    padding: 10px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/*Formatting of the email field*/
+input[type=email], select {
+    width: 300px;
+    padding: 10px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/*Formatting of the Submit Button*/
+input[type=submit] {
+    width: 150px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14pt;
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    cursor: pointer;
+}
+
+/*Formatting of the Hover Effect*/
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/*Formatting of the Background colour when focused on a field*/
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+.main-page .signuperror {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 14pt;
+    line-height: 1.6;
+}
+
+.login-page {
+    background-color: white;
+    color: black;
+}
+
+/*Formatting of the Submit Button*/
+button[type=submit] {
+    width: 150px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14pt;
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    cursor: pointer;
+}
+.main-page p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-align: justify;
+}

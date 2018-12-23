@@ -1,0 +1,103 @@
+/* Bordered form */
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+img{
+    display: flex;
+    margin: auto   auto;
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px 10px;
+    margin: 8px;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+/*Formatting of the Background colour when focused on a field*/
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+/*Formatting of the Background colour when focused on a field*/
+input[type=password]:focus {
+    background-color: lightblue;
+}
+
+/* Set a style for all buttons */
+form button {
+    width: 150px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14pt;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Add a hover effect for buttons */
+form button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+form .cancelbtn {
+    width: 150px;
+    background-color: Red;
+    color: white;
+    font-size: 14pt;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+/* The "Forgot password" text */
+span.psw {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    display: block;
+    margin: auto 10px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+.login-page {
+    min-height: 500px;
+}
+
+.login-page h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+span a {
+    color: blue;
+}
+span.register{
+    display: block;
+    margin: auto 10px;
+    padding: auto 10px
+}

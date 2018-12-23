@@ -1,0 +1,58 @@
+/****** Footer CSS ******/
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row .column img{
+    float: left
+}
+.row .column a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 12pt;
+}
+.row .column p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 12pt;
+}
+.row .column {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 11pt;
+    float: left;
+    padding: 5px;
+    width: 50%;
+    min-height: 200px;
+    line-height: 200%;
+    margin: 0 auto;
+}
+.row h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    color: white;
+    text-decoration: none;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row .column dt {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 12pt;
+}
+li{
+    color: white;
+}
+.column p{
+    color: white;
+}
