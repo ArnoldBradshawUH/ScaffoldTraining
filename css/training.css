@@ -1,0 +1,74 @@
+.main-page{
+    min-height: 700px;
+}
+.main-page .training-container img {
+    margin: 15px auto;
+}
+
+.training-container .training-message{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+table {
+    text-align: left;
+}
+
+.main-page .training-container td {
+    margin: 15px auto;
+    padding-right: 20px;
+    padding-top: 10px;
+    text-align: justify;
+    vertical-align: top;
+    line-height: 1.5;
+    border-bottom-style: solid;
+    border-width: thin;
+}
+
+/*Formatting of the Submit Button*/
+button[type=submit] {
+    width: 150px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14pt;
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    cursor: pointer;
+}
+
+/*Formatting of the Hover Effect*/
+button[type=submit]:hover {
+    opacity: 0.8;
+}
+
+/*Formatting of the Background colour when focused on a field*/
+button[type=submit]:focus {
+    background-color: lightblue;
+}
+
+/*Formatting of the Submit Button*/
+input[type=submit] {
+    width: 150px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14pt;
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    cursor: pointer;
+}
+
+/*Formatting of the Hover Effect*/
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+/*Formatting of the Background colour when focused on a field*/
+input[type=submit]:focus {
+    background-color: lightblue;
+}

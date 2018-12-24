@@ -26,7 +26,6 @@ session_start();
         <button class="dropbtn">Products</button>
         <div class="dropdown-content">
             <a href="tagging-systems.php">Tagging Systems</a>
-            <a href="drop-object-prevention.php">Drop Object Prevention</a>
             <a href="scaffold-tools.php">Scaffold Tools</a>
         </div>
     </div>
@@ -55,6 +54,7 @@ session_start();
                 <button class="dropbtn" onclick="window.location.href='login.php'">Register/Login</button>
             <?php endif; ?>
         </div>
+        <?php echo $_SESSION['first_name'] ?>
     </div>
 </div>
 <script type="text/javascript" src="js/nav-bar-sticky.js"></script>

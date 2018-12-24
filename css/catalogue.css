@@ -1,0 +1,79 @@
+.tagging-system .tagging-system-container {
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.tagging-system-container .tagging-details {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.8;
+    text-align: justify;
+    text-decoration: none;
+    margin: 10px;
+    flex: 1 0 0;
+}
+
+.tagging-details .product-code {
+    font-size: larger;
+    color: red;
+}
+
+.tagging-system .tag-label {
+    font-weight: bold;
+}
+
+
+/*Tools Page*/
+.tools-page p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.8;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.tools-page .tools-container {
+    padding: 10px auto;
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    flex-direction: row;
+    justify-content: flex-start
+}
+
+.tools-page .tools-container .tools-details {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.8;
+    text-align: left;
+    text-decoration: none;
+    margin: 10px;
+    flex: 1 0 0;
+}
+
+.tools-page .tools-container .product-code {
+    font-size: larger;
+    color: red;
+}
+
+.tools-page .tools-container .tag-label {
+    font-weight: bold;
+}
+
+.tools-container li {
+    color: black;
+}
+
+@media only screen and (min-width: 368px) {
+    .ppe-container {
+        width: 100%;
+        display: flow;
+        padding: 5px;
+    }
+}
