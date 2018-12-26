@@ -11,6 +11,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="STC Company" content="Online Booking for Scaffold Training">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>STC Training</title>
     <link rel="stylesheet" href="css/footer.css">
 </head>

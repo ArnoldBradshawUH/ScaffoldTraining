@@ -25,6 +25,9 @@ if (isset($_POST['confirm-training']) && $_SESSION['userID'] == true) {
 <!DOCTYPE html>
 <head>
   <title>Training Confirmation</title>
+  <meta charset="UTF-8">
+  <meta name="STC Company" content="Online Booking for Scaffold Training">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <p>
@@ -88,7 +91,7 @@ if (mysqli_num_rows($result) > 0) {
         $spaces_available = $row["train_spaces"];
         $training_image = $row["image"];
 //        Set session variables for the final email
-        $_SESSION['courseCode']=$course_code;
+        $_SESSION['courseCode'] = $course_code;
     }
 } else {
     echo "There was an error booking your training. Please call the office and book the training over the phone.";
