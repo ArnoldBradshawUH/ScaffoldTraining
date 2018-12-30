@@ -24,8 +24,9 @@
         <a href="http://www.facebook.com"><img src="images/facebook-icon.png" alt="Facebook" width="30"></a>
         <a href="http://www.youtube.com"><img src="images/youtube-icon.png" alt="Youtube" width="30"></a>
         <a href="http://www.instagram.com"><img src="images/instagram-icon.png" alt="Instagram" width="30"></a>
-        <br><br><br>
-        <p> <?php echo "&copy " . date(Y); ?> STC Training. All Rights Reserved.</p>
+        <br><br>
+        <p> <?php echo "&copy " . date(Y); ?> STC Training. All Rights Reserved.</p><br>
+        <a href="privacy.php">Privacy Policy</a>
     </div>
     <div class="column">
         <h2>Contact Information</h2><br>
