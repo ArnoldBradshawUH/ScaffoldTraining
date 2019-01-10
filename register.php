@@ -38,6 +38,11 @@ include('header.php');
             echo '<p class = "signuperror"> Your email address is invalid!</p>';
         }
     }
+    if (isset($_GET['signup'])) {
+        if ($_GET['signup'] == 'success') {
+            echo '<p class = "signuperror"> Thanks for Registering!</p>';
+        }
+    }
     ?> <br>
     <div class="register-form">
         <form action="includes/register.inc.php" method="post">
