@@ -175,3 +175,13 @@ button[type=submit] {
     line-height: 1.6;
     text-align: justify;
 }
+
+/* Media query for smaller phones */
+@media only screen and (max-width: 375px) {
+    img {
+        max-width: 100%;
+    }
+    .main-page {
+        width: 95%;
+    }
+}

@@ -90,9 +90,18 @@ img {
     }
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+/* On smaller screens, decrease text size and other areas */
+@media only screen and (max-width: 375px) {
     .prev, .next, .text {
         font-size: 11px
+    }
+
+    .slideshow-container {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .slideshow-container img{
+        width: 100%;
     }
 }

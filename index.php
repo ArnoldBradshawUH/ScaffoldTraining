@@ -22,32 +22,32 @@ include('header.php');
     <div class="slideshow-container">
         <div class="mySlides fade">
             <div class="numbertext">1 / 6</div>
-            <img src="images/stc-img1.jpg" style="width:100%" height="500">
+            <img src="images/stc-img1.jpg" style="width:100%">
             <div class="text">Caption One</div>
         </div>
         <div class="mySlides fade">
             <div class="numbertext">2 / 6</div>
-            <img src="images/stc-img2.jpg" style="width:100%" height="500">
+            <img src="images/stc-img2.jpg" style="width:100%">
             <div class="text">Caption Two</div>
         </div>
         <div class="mySlides fade">
             <div class="numbertext">3 / 6</div>
-            <img src="images/stc-img3.jpg" style="width:100%" height="500">
+            <img src="images/stc-img3.jpg" style="width:100%">
             <div class="text">Caption Three</div>
         </div>
         <div class="mySlides fade">
             <div class="numbertext">4 / 6</div>
-            <img src="images/stc-img4.jpg" style="width:100%" height="500">
+            <img src="images/stc-img4.jpg" style="width:100%">
             <div class="text">Caption Four</div>
         </div>
         <div class="mySlides fade">
             <div class="numbertext">5 / 6</div>
-            <img src="images/stc-img5.jpg" style="width:100%" height="500">
+            <img src="images/stc-img5.jpg" style="width:100%">
             <div class="text">Caption Five</div>
         </div>
         <div class="mySlides fade">
             <div class="numbertext">6 / 6</div>
-            <img src="images/stc-img6.jpg" style="width:100%" height="500">
+            <img src="images/stc-img6.jpg" style="width:100%">
             <div class="text">Caption Six</div>
             <br>
         </div>

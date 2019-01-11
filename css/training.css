@@ -72,3 +72,19 @@ input[type=submit]:hover {
 input[type=submit]:focus {
     background-color: lightblue;
 }
+
+/* Media query for smaller devices */
+@media only screen and (max-width: 375px) {
+    img {
+        display: none;
+    }
+    .training-container{
+        flex-wrap: wrap;
+        margin: 5px 5px;
+    }
+
+    table {
+        margin: 5px 5px;
+    }
+
+}

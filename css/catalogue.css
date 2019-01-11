@@ -70,10 +70,36 @@
     color: black;
 }
 
-@media only screen and (min-width: 368px) {
-    .ppe-container {
-        width: 100%;
-        display: flow;
-        padding: 5px;
+@media only screen and (max-width: 375px) {
+
+    .tagging-system-container {
+        flex-wrap: wrap;
     }
+
+    .tools-container {
+        flex-wrap: wrap;
+    }
+
+
+    img {
+        max-width: 90%;
+        margin: 5px;
+    }
+
+    .tagging-system, .tools-page {
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        margin: 5%;
+    }
+
 }
