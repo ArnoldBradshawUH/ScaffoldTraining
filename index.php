@@ -4,6 +4,8 @@
  * User: said
  * Date: 2018-12-20
  * Time: 03:31
+ * Code created by A. Bradshaw
+ * Source of slideshow code - w3schools.com
  */
 include('header.php');
 ?>

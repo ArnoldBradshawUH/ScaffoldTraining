@@ -45,6 +45,9 @@ session_start();
     </div>
     <div class="dropdown">
         <button class="dropbtn" onclick="window.location.href='profile.php'">About</button>
+        <div class="dropdown-content">
+            <a href="user-profile.php">User Profile</a>
+        </div>
     </div>
     <div class="topnav-right">
         <div class="dropdown">

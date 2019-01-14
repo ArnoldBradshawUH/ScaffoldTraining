@@ -5,6 +5,7 @@
  * Date: 2018-12-20
  * Time: 03:59
  * Scaffolding Weight Calculator
+ * Coded by A. Bradshaw
  */
 
 include('header.php');

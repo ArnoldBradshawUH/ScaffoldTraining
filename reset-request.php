@@ -4,6 +4,7 @@
  * User: said
  * Date: 2019-01-10
  * Time: 11:51
+ * Source of  code - mmtuts on YouTube
  */
 
 // This file will formulate the email to send to the user
